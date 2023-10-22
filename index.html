@@ -6,21 +6,22 @@
     <title>Meteo Centrum s.r.o.</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js
     "></script>
-    <link rel="stylesheet" href="css/carousel.css">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/carousel.css">
 </head>
 <body>
-    <header class="p-3 mb-3 border-bottom">
+    <header class="p-3 mb-3 border-bottom ">
         <div class="container" bis_skin_checked="1">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start" bis_skin_checked="1">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
-              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            <a href="/index.html" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+                <img src="pics/meteoLogo.png"  width="40" height="40" class="bi me-2">
             </a>
     
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="/index.html" class="nav-link px-2 link-secondary">Domov</a></li>
-              <li><a href="/zariadenia.html" class="nav-link px-2 link-body-emphasis">Zariadenia</a></li>
+              <li><a href="/index.html" class="nav-link px-1 link-secondary">Domov</a></li>
+              <li><a href="/zariadenia.html" class="nav-link px- link-body-emphasis">Zariadenia</a></li>
               <li><a href="/grafPred.html" class="nav-link px-2 link-body-emphasis">Grafická predpoveď</a></li>
               <li><a href="/txtPred.html" class="nav-link px-2 link-body-emphasis">Textová predpoveď</a></li>
             </ul>
@@ -55,18 +56,18 @@
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
           </div>
           <div class="carousel-inner" bis_skin_checked="1">
-            <div class="carousel-item" bis_skin_checked="1">
-              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)" data-darkreader-inline-fill="" style="--darkreader-inline-fill: var(--darkreader-bg--bs-secondary-color);"></rect></svg>
+            <div class="carousel-item  grey-overlay " bis_skin_checked="1">
+                <img src="/pics/measure.jpg" class="d-block w-100 img-carousel" alt="Your Image Description">
               <div class="container" bis_skin_checked="1">
                 <div class="carousel-caption text-start" bis_skin_checked="1">
                   <h1>Presné merania</h1>
-                  <p class="opacity-75">Vďaka nášmu hardware a software riešeniu budú vaše priestory merané 24/7</p>
+                  <p class="opacity-90">Vďaka nášmu hardware a software riešeniu budú vaše priestory merané 24/7</p>
                   <p><a class="btn btn-lg btn-primary" href="/zariadenia.html">Zariadenia</a></p>
                 </div>
               </div>
             </div>
-            <div class="carousel-item" bis_skin_checked="1">
-              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)" data-darkreader-inline-fill="" style="--darkreader-inline-fill: var(--darkreader-text--bs-secondary-color);"></rect></svg>
+            <div class="carousel-item grey-overlay" bis_skin_checked="1">
+                <img src="/pics/slider1.jpg" class="d-block w-100 img-carousel" alt="Your Image Description">
               <div class="container" bis_skin_checked="1">
                 <div class="carousel-caption" bis_skin_checked="1">
                   <h1>Výhodné v pomere cena/výkon</h1>
@@ -75,8 +76,8 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item active" bis_skin_checked="1">
-              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)" data-darkreader-inline-fill="" style="--darkreader-inline-fill: var(--darkreader-text--bs-secondary-color);"></rect></svg>
+            <div class="carousel-item active grey-overlay" bis_skin_checked="1">
+                <img src="/pics/demo.png" class="d-block w-100 img-carousel" alt="Your Image Description">
               <div class="container" bis_skin_checked="1">
                 <div class="carousel-caption text-end" bis_skin_checked="1">
                   <h1>Demo ukážka</h1>
@@ -89,11 +90,11 @@
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span class="visually-hidden">Predošlé</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <span class="visually-hidden">Ďalšie</span>
           </button>
         </div>
       
@@ -106,20 +107,21 @@
       
           <!-- Three columns of text below the carousel -->
           <div class="row" bis_skin_checked="1">
-            <div class="col-lg-4" bis_skin_checked="1">
-              <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" data-darkreader-inline-fill="" style="--darkreader-inline-fill: var(--darkreader-bg--bs-secondary-color);"></rect></svg>
+            <div class="col-lg-4 img-columns " bis_skin_checked="1">
+                <img src="/pics/tablet.jpg"  class="d-block w-100 rounded-circle img-columns" alt="Your Image Description">
               <h2 class="fw-normal">Riešenie na mieru</h2></h2>
               <p>Len naša firma sa dokáže prispôsobiť vaším požiadavkám a zachovať kvalitu naších produktov</p>
               <p><a class="btn btn-secondary" href="#contact">Kontaktujte nás »</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4" bis_skin_checked="1">
-              <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" data-darkreader-inline-fill="" style="--darkreader-inline-fill: var(--darkreader-bg--bs-secondary-color);"></rect></svg>
+                <img src="/pics/miniDisplej.jpg"  class="d-block w-100 rounded-circle img-columns"  alt="Your Image Description">
               <h2 class="fw-normal">Bezkonkurenčný výkon</h2>
               <p>Vďaka dlhému vývoju a praxi sú naše zariadenia optimalizované na dlhú prevádzku</p>
               <p><a class="btn btn-secondary" href="/zariadenia.html">Zariadenia »</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4" bis_skin_checked="1">
-              <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" data-darkreader-inline-fill="" style="--darkreader-inline-fill: var(--darkreader-bg--bs-secondary-color);"></rect></svg>
+                
+                <img src="/pics/experience.jpg"  class="d-block w-100 rounded-circle img-columns"  alt="Your Image Description">
               <h2 class="fw-normal">Dlhé skúsenosti</h2>
               <p>Na trhu už figurujeme 20rokov. V prípade neistoty vám dokážeme navrhnúť riešenie cez naše skúsenosti.</p>
               <p><a class="btn btn-secondary" href="#contact">Kontaktujte nás »</a></p>
@@ -133,11 +135,12 @@
       
           <div class="row featurette" bis_skin_checked="1">
             <div class="col-md-7" bis_skin_checked="1">
-              <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
-              <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+              <h2 class="featurette-heading fw-normal lh-1">Pridaná funkcia <span class="text-body-secondary">máp.</span></h2>
+              <p class="lead">V našej aplikáciii sme spustili novú službu, ktorá využíva GPS súradnice vaších zariadení</p>
             </div>
             <div class="col-md-5" bis_skin_checked="1">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" data-darkreader-inline-fill="" style="--darkreader-inline-fill: var(--darkreader-bg--bs-secondary-bg);"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em" data-darkreader-inline-fill="" style="--darkreader-inline-fill: var(--darkreader-text--bs-secondary-color);">500x500</text></svg>
+                <img src="/pics/maps.png" alt="Your Image Description" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+
             </div>
           </div>
       
@@ -145,11 +148,12 @@
       
           <div class="row featurette" bis_skin_checked="1">
             <div class="col-md-7 order-md-2" bis_skin_checked="1">
-              <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-              <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+              <h2 class="featurette-heading fw-normal lh-1">Sledovanie údajov cez internet. <span class="text-body-secondary">Odkiaľkoľvek.</span></h2>
+              <p class="lead">Vďaka našej multiplatformovej aplikácii dokážete si pozerať informácie zariadení odkiaľkoľvek a kedykoľvek</p>
             </div>
             <div class="col-md-5 order-md-1" bis_skin_checked="1">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" data-darkreader-inline-fill="" style="--darkreader-inline-fill: var(--darkreader-bg--bs-secondary-bg);"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em" data-darkreader-inline-fill="" style="--darkreader-inline-fill: var(--darkreader-text--bs-secondary-color);">500x500</text></svg>
+                <img src="/pics/anywhere.jpg" alt="Your Image Description" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+
             </div>
           </div>
       
@@ -157,11 +161,12 @@
       
           <div class="row featurette" bis_skin_checked="1">
             <div class="col-md-7" bis_skin_checked="1">
-              <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-              <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+              <h2 class="featurette-heading fw-normal lh-1">Bezpečnosť na úrovni <span class="text-body-secondary">armádneho šifrovania.</span></h2>
+              <p class="lead">Používame šifrovanie na armádnej úrovni, vďaka certifikácii ISO654651</p>
             </div>
             <div class="col-md-5" bis_skin_checked="1">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" data-darkreader-inline-fill="" style="--darkreader-inline-fill: var(--darkreader-bg--bs-secondary-bg);"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em" data-darkreader-inline-fill="" style="--darkreader-inline-fill: var(--darkreader-text--bs-secondary-color);">500x500</text></svg>
+                <img src="pics/security.jpg" alt="Your Image Description" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+
             </div>
           </div>
       

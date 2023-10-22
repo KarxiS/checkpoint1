@@ -9,3 +9,26 @@ body {
     padding-bottom: 3rem;
     color: rgb(var(--bs-tertiary-color-rgb));
   }
+
+  .grey-overlay {
+    position: relative;
+}
+
+.grey-overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(128, 128, 128, 0.7); /* Grey overlay with 50% opacity */
+}
+
+.header{
+
+    background-color: rgb(82, 82, 82);
+    border-radius: 10px;
+    color: blue;
+
+}
+ 
