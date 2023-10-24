@@ -6,8 +6,8 @@
 .form-group input,
 .form-group textarea {
     border: 1px solid --farba-primary;
-    border-radius: 0.25rem;
-    padding: 0.375rem 0.75rem;
+    border-radius: 4px;
+    padding: 6px 12px;
 }
 
 #formBtn {

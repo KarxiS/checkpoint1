@@ -3,6 +3,12 @@
     --farbaProgressText: 120,120,120;
     --farbaProgressBar:8, 154, 0;
 }
+.text-primary {
+    color: var(--farba-primary);
+}
+.text-secondary {
+    color: gray;
+}
 
 
 body {
