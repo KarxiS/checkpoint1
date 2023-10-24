@@ -1,6 +1,7 @@
 .form-group {
     margin-bottom: 15px;
     max-width: 500px;
+    
 }
 
 .form-group input,
@@ -39,4 +40,5 @@
 .contact-w1000 {
     max-width: 1000px;
      margin: auto;
+     padding: 10px;
 }

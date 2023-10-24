@@ -8,52 +8,46 @@
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
   
-  /* Carousel base class */
-  .carousel {
-    margin-bottom: 4rem;
-  }
-  /* Since positioning the image, we need to help out the caption */
-  .carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-    color: #0400e1;
-    font-weight: 700;
-  }
-  
-  /* Declare heights because of positioning of img element */
-  .carousel-item {
-    height: 32rem;
-  }
-  
-  
-  /* MARKETING CONTENT
-  -------------------------------------------------- */
-  
-  /* Center align the text within the three columns below the carousel */
-  .marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
-    text-align: center;
-  }
-  /* rtl:begin:ignore */
-  .marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-  }
-  /* rtl:end:ignore */
-  
-  
-  /* Featurettes
-  ------------------------- */
-  
-  .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-  }
-  
-  /* Thin out the marketing headings */
-  /* rtl:begin:remove */
-  .featurette-heading {
-    letter-spacing: -.05rem;
-  }
+ /* Carousel base class */
+.carousel {
+  margin-bottom: 3.5rem;
+}
+
+/* Adjust the caption */
+.carousel-caption {
+  bottom: 2.8rem;
+  z-index: 11;
+  color: #0300d1;
+  font-weight: 600;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 30rem;
+}
+
+/* MARKETING CONTENT */
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.4rem;
+  text-align: center;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .65rem;
+  margin-left: .65rem;
+}
+
+/* Featurettes */
+.featurette-divider {
+  margin: 4.5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  letter-spacing: -.04rem;
+}
+
   
   /* rtl:end:remove */
   
