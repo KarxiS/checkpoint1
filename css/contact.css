@@ -6,10 +6,11 @@
 
 .form-group input,
 .form-group textarea {
-    border: 1px solid --farba-primary;
+    border: 1px solid var(--farba-primary);
     border-radius: 4px;
     padding: 6px 12px;
 }
+
 
 #formBtn {
     background-color: #007bff;
