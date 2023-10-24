@@ -12,9 +12,100 @@
     <link rel="stylesheet" href="css/nastaveniaFarieb.css">
 </head>
 <body>
-    <h6 class="tt-subtitle">Kontaktný formulár</h6>
-					<form id="contactform" class="form-default contact-form" method="post" novalidate="novalidate" action="#">
-						<input type="hidden" name="localization" id="localization" value="slovak">
+
+    <header class="py-3 mb-4 border-bottom  ">
+        <div class="container-fluid">
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+                <a href="/index.html" class="d-flex align-items-center mb-3 mb-md-0 text-dark text-decoration-none">
+                    <img src="pics/meteoLogo.png" width="40" height="40" class="me-2">
+                </a>
+    
+                <nav class="my-2 my-md-0 me-md-3">
+                    <a class="p-2 link-body-emphasislink-body-emphasis" href="/index.html">Domov</a>
+                    <a class="p-2 link-body-emphasis" href="/zariadenia.html">Zariadenia</a>
+                    <a class="p-2 link-body-emphasis" href="/grafPred.html">Grafická predpoveď</a>
+                    <a class="p-2 link-body-emphasis" href="/txtPred.html">Textová predpoveď</a>
+                    <a class="p-2 link-secondary" href="/contact.html">Kontakt</a>
+                </nav>
+    
+                <form class="d-flex me-md-3" role="search">
+                    <input type="search" class="form-control" placeholder="Vyhľadať..." aria-label="Search">
+                </form>
+    
+                <div class="dropdown">
+                    <a href="#" class="d-block text-dark text-decoration-none dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown">
+                        <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end text-small" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="/vlozenieData.html">Vlož dáta</a></li>
+                        <li><a class="dropdown-item" href="#">Nastavenia</a></li>
+                        <li><a class="dropdown-item" href="#">Profil</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Odhlásenie</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="intro" class="contact-w1000 text-center background-img" >
+        <div></div>
+        <h1 class="">Kontakt</h1>
+        <div class="title ">Adresa -  Kontakt - Formulár</div>
+    </div>
+    
+<div class="contact-w1000">
+    <iframe class="contact-w1000" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1303.4574141398443!2d18.760682058708017!3d49.20217526986237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sfri%20uniza!5e0!3m2!1ssk!2ssk!4v1698174417371!5m2!1ssk!2ssk"width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+    <div class="text-center background-img contact-w1000">
+    <h3 class="text-center ">Spojme sa</h3>
+    <div class="row">
+        <div class="col-md-6 title">
+           
+               
+                
+                    <div>Meteo Stanica s.r.o.</div>
+                    <address>
+                        UNIZA, <br> 011 01 Žilina
+                    </address>
+                
+            
+        </div>
+        <div class="col-md-6 title ">
+            <div class="contact-info">
+                
+                
+                    <div>Kontakt</div>
+                <address>
+                    <a href="callto:+421 912 456 789">0912 456 789</a><br><a href="mailto:test@test.sk">test@test.sk</a>
+                </address>
+                
+            </div>
+        </div>
+        
+            <div class="col-md-6 title ">
+                
+               
+                    <div>Otváracie hodiny</div>
+                <address>
+                    Po-Pi: 8:00  - 16:00<br>So-Ne: 2:00 -  16:00
+                </address>
+                
+            </div>
+
+            <div class="col-md-6 title ">
+            <address>
+                Po-Pi: NONSTOP<br>So-Ne: NONSTOP <br> Odpoveď do 12 hodin
+            </address>
+            
+        </div>
+        
+    </div>
+</div>
+<div class="contact-w1000">
+    <h6 class="contact-w1000">Kontaktný formulár</h6>
+					<form id="contactform"  method="post" novalidate="novalidate" action="#">
 						<div class="form-group">
 							<input type="text" name="name" class="form-control" id="inputName" placeholder="Meno a priezvisko *">
 						</div>
@@ -30,5 +121,8 @@
 						<button type="submit" id="formBtn" class=""><span>odoslať</span></button>
 						<div id="resultAjax"></div>
 					</form>
+                </div>
+
+
 </body>
 </html>

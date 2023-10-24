@@ -4,7 +4,7 @@
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    color: rgb(var(--farbaTextu));
+    color: rgb(var(--farba-primary));
   }
 
   .grey-overlay {

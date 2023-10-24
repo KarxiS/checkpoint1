@@ -14,40 +14,40 @@
     <link rel="stylesheet" href="css/nastaveniaFarieb.css">
 </head>
 <body>
-    <header class=" p-3 mb-3 border-bottom  ">
-        <div class="container" bis_skin_checked="1">
-          <div class=" d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start" bis_skin_checked="1">
-            <a href="/index.html" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
-                <img src="pics/meteoLogo.png"  width="40" height="40" class="bi me-2">
+    <header class="py-3 mb-4 border-bottom">
+    <div class="container-fluid">
+        <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+            <a href="/index.html" class="d-flex align-items-center mb-3 mb-md-0 text-dark text-decoration-none">
+                <img src="pics/meteoLogo.png" width="40" height="40" class="me-2">
             </a>
-    
-            <ul class="header nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="/index.html" class="nav-link px-1 link-secondary">Domov</a></li>
-              <li><a href="/zariadenia.html" class="nav-link px- link-body-emphasis">Zariadenia</a></li>
-              <li><a href="/grafPred.html" class="nav-link px-2 link-body-emphasis">Grafická predpoveď</a></li>
-              <li><a href="/txtPred.html" class="nav-link px-2 link-body-emphasis">Textová predpoveď</a></li>
-              <li><a href="/contact.html" class="nav-link px-2 link-body-emphasis">Kontakt</a></li>
-            </ul>
-    
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-              <input type="search" class="form-control" placeholder="Vyhľadať..." aria-label="Search">
+
+            <nav class="my-2 my-md-0 me-md-3">
+                <a class="p-2 link-secondary" href="/index.html">Domov</a>
+                <a class="p-2 link-body-emphasis" href="/zariadenia.html">Zariadenia</a>
+                <a class="p-2 link-body-emphasis" href="/grafPred.html">Grafická predpoveď</a>
+                <a class="p-2 link-body-emphasis" href="/txtPred.html">Textová predpoveď</a>
+                <a class="p-2 link-body-emphasis" href="/contact.html">Kontakt</a>
+            </nav>
+
+            <form class="d-flex me-md-3" role="search">
+                <input type="search" class="form-control" placeholder="Vyhľadať..." aria-label="Search">
             </form>
-    
-            <div class="dropdown text-end" bis_skin_checked="1">
-              <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
-              </a>
-              <ul class="dropdown-menu text-small">
-                <li><a class="dropdown-item" href="/vlozenieData.html">Vlož dáta</a></li>
-                <li><a class="dropdown-item" href="#">Nastavenia</a></li>
-                <li><a class="dropdown-item" href="#">Profil</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Odhlásenie</a></li>
-              </ul>
+
+            <div class="dropdown">
+                <a href="#" class="d-block text-dark text-decoration-none dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown">
+                    <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle">
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end text-small" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="/vlozenieData.html">Vlož dáta</a></li>
+                    <li><a class="dropdown-item" href="#">Nastavenia</a></li>
+                    <li><a class="dropdown-item" href="#">Profil</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Odhlásenie</a></li>
+                </ul>
             </div>
-          </div>
         </div>
-    </header>
+    </div>
+</header>
 
 
     <main>
@@ -60,7 +60,7 @@
           </div>
           <div class="carousel-inner" bis_skin_checked="1">
             <div class="carousel-item  grey-overlay " bis_skin_checked="1">
-                <img src="/pics/measure.jpg" class="d-block w-100 img-carousel" alt="Your Image Description">
+                <img src="/pics/measure.jpg" class="d-block w-100 img-carousel" alt="teplomer">
               <div class="container" bis_skin_checked="1">
                 <div class="carousel-caption text-start" bis_skin_checked="1">
                   <h1>Presné merania</h1>
@@ -70,7 +70,7 @@
               </div>
             </div>
             <div class="carousel-item grey-overlay" bis_skin_checked="1">
-                <img src="/pics/slider1.jpg" class="d-block w-100 img-carousel" alt="Your Image Description">
+                <img src="/pics/slider1.jpg" class="d-block w-100 img-carousel" alt="zariadenia">
               <div class="container" bis_skin_checked="1">
                 <div class="carousel-caption" bis_skin_checked="1">
                   <h1>Výhodné v pomere cena/výkon</h1>
@@ -80,7 +80,7 @@
               </div>
             </div>
             <div class="carousel-item active grey-overlay" bis_skin_checked="1">
-                <img src="/pics/demo.png" class="d-block w-100 img-carousel" alt="Your Image Description">
+                <img src="/pics/demo.png" class="d-block w-100 img-carousel" alt="demoApp">
               <div class="container" bis_skin_checked="1">
                 <div class="carousel-caption text-end" bis_skin_checked="1">
                   <h1>Demo ukážka</h1>
@@ -111,20 +111,20 @@
           <!-- Three columns of text below the carousel -->
           <div class="row" bis_skin_checked="1">
             <div class="col-lg-4 img-columns " bis_skin_checked="1">
-                <img src="/pics/tablet.jpg"  class="d-block w-100 rounded-circle img-columns" alt="Your Image Description">
-              <h2 class="fw-normal">Riešenie na mieru<span class="btn-success">New</span></h2>
+                <img src="/pics/tablet.jpg"  class="d-block w-100 rounded-circle img-columns" alt="Tablet">
+              <h2 class="fw-normal">Riešenie na mieru</h2>
               <p>Len naša firma sa dokáže prispôsobiť vaším požiadavkám a zachovať kvalitu naších produktov</p>
               <p><a class="btn btn-secondary rounded-pill" href="#contact">Kontaktujte nás »</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4" bis_skin_checked="1">
-                <img src="/pics/miniDisplej.jpg"  class="d-block w-100 rounded-circle img-columns"  alt="Your Image Description">
+                <img src="/pics/miniDisplej.jpg"  class="d-block w-100 rounded-circle img-columns"  alt="displej">
               <h2 class="fw-normal">Bezkonkurenčný výkon</h2>
               <p>Vďaka dlhému vývoju a praxi sú naše zariadenia optimalizované na dlhú prevádzku</p>
               <p><a class="btn btn-secondary rounded-pill" href="/zariadenia.html">Zariadenia »</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4" bis_skin_checked="1">
                 
-                <img src="/pics/experience.jpg"  class="d-block w-100 rounded-circle img-columns"  alt="Your Image Description">
+                <img src="/pics/experience.jpg"  class="d-block w-100 rounded-circle img-columns"  alt="ludia">
               <h2 class="fw-normal">Dlhé skúsenosti</h2>
               <p>Na trhu už figurujeme 20rokov. V prípade neistoty vám dokážeme navrhnúť riešenie cez naše skúsenosti.</p>
               <p><a class="btn btn-secondary rounded-pill" href="#contact">Kontaktujte nás »</a></p>
@@ -147,7 +147,7 @@
               <p class="lead">V našej aplikáciii sme spustili novú službu, ktorá využíva GPS súradnice vaších zariadení</p>
             </div>
             <div class="col-md-5" bis_skin_checked="1">
-                <img src="/pics/maps.png" alt="Your Image Description" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+                <img src="/pics/maps.png" alt="maps" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
 
             </div>
           </div>
@@ -160,7 +160,7 @@
               <p class="lead">Vďaka našej multiplatformovej aplikácii dokážete si pozerať informácie zariadení odkiaľkoľvek a kedykoľvek</p>
             </div>
             <div class="col-md-5 order-md-1" bis_skin_checked="1">
-                <img src="/pics/anywhere.jpg" alt="Your Image Description" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+                <img src="/pics/anywhere.jpg" alt="anywhere" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
 
             </div>
           </div>
@@ -173,7 +173,7 @@
               <p class="lead">Používame šifrovanie na armádnej úrovni, vďaka certifikácii ISO654651</p>
             </div>
             <div class="col-md-5" bis_skin_checked="1">
-                <img src="pics/security.jpg" alt="Your Image Description" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+                <img src="pics/security.jpg" alt="security" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
 
             </div>
           </div>

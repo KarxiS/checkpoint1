@@ -14,38 +14,38 @@
 </head>
 <body>
 
-    <header class=" p-3 mb-3 border-bottom  ">
-        <div class="container" bis_skin_checked="1">
-          <div class=" d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start" bis_skin_checked="1">
-            <a href="/index.html" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
-                <img src="pics/meteoLogo.png"  width="40" height="40" class="bi me-2">
-            </a>
+    <header class="py-3 mb-4 border-bottom">
+        <div class="container-fluid">
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+                <a href="/index.html" class="d-flex align-items-center mb-3 mb-md-0 text-dark text-decoration-none">
+                    <img src="pics/meteoLogo.png" width="40" height="40" class="me-2">
+                </a>
     
-            <ul class="header nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="/index.html" class="nav-link px-2 link-body-emphasis">Domov</a></li>
-              <li><a href="/zariadenia.html" class="nav-link px-2 link-secondary">Zariadenia</a></li>
-              <li><a href="/grafPred.html" class="nav-link px-2 link-body-emphasis">Grafická predpoveď</a></li>
-              <li><a href="/txtPred.html" class="nav-link px-2 link-body-emphasis">Textová predpoveď</a></li>
-              <li><a href="/contact.html" class="nav-link px-2 link-body-emphasis">Kontakt</a></li>
-            </ul>
+                <nav class="my-2 my-md-0 me-md-3">
+                    <a class="p-2 link-body-emphasis" href="/index.html">Domov</a>
+                    <a class="p-2 link-secondary" href="/zariadenia.html">Zariadenia</a>
+                    <a class="p-2 link-body-emphasis" href="/grafPred.html">Grafická predpoveď</a>
+                    <a class="p-2 link-body-emphasis" href="/txtPred.html">Textová predpoveď</a>
+                    <a class="p-2 link-body-emphasis" href="/contact.html">Kontakt</a>
+                </nav>
     
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-              <input type="search" class="form-control" placeholder="Vyhľadať..." aria-label="Search">
-            </form>
+                <form class="d-flex me-md-3" role="search">
+                    <input type="search" class="form-control" placeholder="Vyhľadať..." aria-label="Search">
+                </form>
     
-            <div class="dropdown text-end" bis_skin_checked="1">
-              <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
-              </a>
-              <ul class="dropdown-menu text-small">
-                <li><a class="dropdown-item" href="/vlozenieData.html">Vlož dáta</a></li>
-                <li><a class="dropdown-item" href="#">Nastavenia</a></li>
-                <li><a class="dropdown-item" href="#">Profil</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Odhlásenie</a></li>
-              </ul>
+                <div class="dropdown">
+                    <a href="#" class="d-block text-dark text-decoration-none dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown">
+                        <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end text-small" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="/vlozenieData.html">Vlož dáta</a></li>
+                        <li><a class="dropdown-item" href="#">Nastavenia</a></li>
+                        <li><a class="dropdown-item" href="#">Profil</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Odhlásenie</a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </div>
     </header>
     <img src="/pics/multiple.jpg" class="img-fluid mx-auto d-block" alt="Responsive image">
@@ -110,9 +110,15 @@
                 </tr>
             
         </tbody>
-            </tbody>
+            
         </table>
     </div>
-    
+    <!-- FOOTER -->
+    <footer class="container">
+        <p class="float-end"><a href="#">Ísť na začiatok</a></p>
+        <br>
+        <br>
+        <p class="text-center">© 2017–2023 Meteo Centrala s.r.o., Všetky práva vyhradené.</p>
+      </footer>
 </body>
 </html>
